@@ -35,6 +35,9 @@ img{
 }
 
 #imgBackground{
-    background-color: black;
-    padding: 80px 80px 80px 80px;
+   background-color: black;
+   margin-left: 600px;
+   margin-right: 600px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
