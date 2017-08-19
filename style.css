@@ -4,7 +4,7 @@ body{
     padding: 0;
     font-family: Arial, serif;
 }
-
+/*navigation bar*/
 .nav{
     background-color: gold;
     color: black;
@@ -28,6 +28,7 @@ body{
     color: yellow ;
 }
 
+/*image on navigation bar*/
 img{
     color: gold;
     margin: auto;
@@ -40,7 +41,7 @@ img{
    padding-top: 10px;
    padding-bottom: 10px;
 }
-/* search box and button style*/
+/* search box */
 
 #searchbox
 {
@@ -75,7 +76,7 @@ img{
 }
 
 
-/* ----------------------- */
+/* button */
 
 #submit
 {       
@@ -131,7 +132,7 @@ body {
     box-shadow: 0 1px 2px rgba(0,0,0,.3);
      box-sizing: border-box;
 }
-
+/* photo gallery homepage*/
 .gallery > div {
     position: relative;
     float: left;
@@ -163,6 +164,7 @@ body {
     clear: both;
 }
 
+/*headers*/
 h1 {
     margin: 40px 0;
     font-size: 30px;
@@ -170,4 +172,54 @@ h1 {
     text-align: center;
     text-decoration: none;
     color: gold;
+}
+
+/* profile stylist */
+
+.profilenav{
+    background-color: black;
+    color: gold;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.profilenav > li {
+    display: inline-block;
+    padding: 10px 25px 0px 25px;
+    
+}
+
+.profilenav > li > a {
+    text-decoration: none;
+    color: gold;
+}
+
+.profilenav > li > a:hover {
+    color: grey ;
+}
+
+#profileimgbackdrop {
+    background-color: gold;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#profilePicBackdrop{
+    background-color: black;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:470px;
+    margin-left: 470px
+}
+
+#stylistprofile1 {
+    background-color: gold;
+}
+
+#firstPic{
+    margin: 40px 2px;
 }
