@@ -199,6 +199,11 @@ h1 {
     color: grey ;
 }
 
+#stylistprofile1 {
+    background-color: gold;
+}
+
+/* profile stylist 1 */
 #profileimgbackdrop {
     background-color: gold;
     margin-left: 600px;
@@ -216,10 +221,43 @@ h1 {
     margin-left: 470px
 }
 
-#stylistprofile1 {
-    background-color: gold;
-}
-
 #firstPic{
     margin: 40px 2px;
+}
+
+/*stylist profile 2*/
+#profilePicBackdrop2{
+    background-color: black;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:375px;
+    margin-left: 375px
+}
+
+#firstPic2 {
+    margin: 40px 15px;
+}
+
+p {
+    text-align: center;
+    margin: 15px 300px ;
+    color: black;
+    font-size:25px;
+    border: 25px solid black;
+    padding: 25px;
+}
+
+/*style profile 4*/
+#profilePicBackdrop4{
+    background-color: black;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right:375px;
+    margin-left: 375px
+}
+
+#firstPic {
+    margin: 40px 15px;
 }
